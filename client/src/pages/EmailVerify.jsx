@@ -9,7 +9,6 @@ const EmailVerify = () => {
 
   axios.defaults.withCredentials = true;
   const {backendURL, isLoggedin, userData, getUserData} = useContext(AppContext)
-
   const navigate = useNavigate()
 
   const inputRefs = React.useRef([])
