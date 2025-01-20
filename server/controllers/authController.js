@@ -102,7 +102,7 @@ export const logout = async (req, res) => {
     }
 }
 
-// Sens verfication OTP to the user's email
+// Send verfication OTP to the user's email
 export const sendVerifyOtp = async (req, res) => {
     try {
         const {userId} = req.body;
